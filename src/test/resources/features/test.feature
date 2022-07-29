@@ -1,7 +1,6 @@
 @test
 Feature: test feature
 
-Scenario: Generate token
  Scenario: Generate Valid token with username and password
     Given url "https://tek-insurance-api.azurewebsites.net/"
     And path "/api/token"
